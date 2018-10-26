@@ -198,7 +198,7 @@ body {
 }
 
 .top-nav__menu-btn--animated {
-    transform: translateY(0em);
+    transform: translateY(-1.5em);
     opacity: 0;
     animation-fill-mode: forwards;
     animation-name: lowerAndReveal;
