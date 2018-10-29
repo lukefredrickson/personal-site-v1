@@ -1,9 +1,7 @@
 let overlayNav = document.getElementById("overlay-nav");
 const overlayNavHiddenClass = "overlay-nav--hidden";
-let overlayNavCloseBtn = document.getElementById("overlay-nav__close-btn");
-let hero = document.getElementById("hero");
-const heroHiddenClass = "hero--hidden";
-let topNavMenuBtn = document.getElementById("top-nav__menu-btn");
+let hero = document.getElementById("main");
+const heroHiddenClass = "main--hidden";
 
 const openOverlayNav = () => {
     if ( !hero.classList.contains(heroHiddenClass) ) {

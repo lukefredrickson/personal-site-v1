@@ -1,0 +1,96 @@
+/*   OVERLAY NAVIGATION   */
+
+.overlay-nav {
+    font-size: 75%;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #e8624b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay-nav--hidden {
+    display: none;
+}
+
+.overlay-nav__close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 4em;
+    margin: 4em 4em 0 0;
+    /*border: 2px solid #fff;*/
+    /*very large to force full rounding*/
+    border-radius: 10em;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.overlay-nav__close-btn .circle {
+    fill: #ffffff00;
+    transition: fill 0.2s ease;
+}
+
+.overlay-nav__close-btn .circle-outline {
+    fill: #ffffff00;
+    stroke: #fff;
+    stroke-width: 1em;
+    transition: fill 0.2s ease;
+}
+
+.overlay-nav__close-btn .icon {
+    fill: #fff;
+    transition: fill 0.2s ease;
+}
+
+.overlay-nav__close-btn:hover {
+    background-color: #fff;
+}
+
+.overlay-nav__close-btn:hover .circle {
+    fill: #fff;
+}
+
+.overlay-nav__close-btn:hover .icon {
+    /*avg of gradient*/
+    fill: #e8624b;
+}
+
+.overlay-nav__list {
+    margin: 0;
+    padding: 0;
+}
+
+.overlay-nav__list-item {
+    display: block;
+    margin: 4em 0;
+    text-align: center;
+}
+
+.overlay-nav__link {
+    box-sizing: content-box;
+    padding: 0.2em 0.5em;
+    text-decoration: none;
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 0.1em 0.1em;
+    transition: all 0.2s ease-in-out;
+}
+
+.overlay-nav__link:hover {
+    background-size: 0.1em 100%;
+    /*avg of gradient*/
+    color: #e8624b;
+}
