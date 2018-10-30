@@ -30,6 +30,7 @@ body {
 }
 
 .bio__content {
+    font-size: 80%;
     padding: 4em 2em 6em 2em;
     background-color: #e8624b;
     color: #fff;
@@ -37,12 +38,14 @@ body {
 
 @media (min-width: 800px) {
     .bio__content {
+        font-size: 90%;
         padding: 4em 4em 6em 4em;
     }
 }
 
 @media (min-width: 1150px) {
     .bio__content {
+        font-size: 100%;
         padding: 4em 8em 6em 8em;
     }
 }
@@ -59,12 +62,42 @@ body {
     }
 }
 
+@media (min-width: 1900px) {
+    .bio__content {
+        padding: 4em 18em 6em 18em;
+    }
+}
+
 .bio__content h1 {
     font-size: 2em;
+    margin: 0;
 }
 
 .bio__content p {
-    font-size: 1.2em;
+    margin-top: 0.5em;
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+.bio__content .bold {
+    font-weight: bold;
+}
+
+.bio__content a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0.2em;
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 0.1em 0.1em;
+    transition: all 0.2s ease-in-out;
+}
+
+.bio__content a:hover {
+    background-size: 0.1em 100%;
+    /*avg of gradient*/
+    color: #e8624b;
 }
 
 .bio__separator {
@@ -127,6 +160,12 @@ body {
 @media (min-width: 1800px) {
     .skills__cards {
         margin: 0.5em 6em;
+    }
+}
+
+@media (min-width: 1900px) {
+    .skills__cards {
+        margin: 0.5em 8em;
     }
 }
 

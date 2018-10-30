@@ -28,13 +28,13 @@ $activePage = $components[2];
             <a class='top-nav__link <?php echo($activePage == "about-me.php" ? "top-nav__link--active" : "") ?>'
                 href='about-me.php'>About Me</a>
         </li>
-        <li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay3'>
-            <a class='top-nav__link <?php echo($activePage == "my-work.php" ? "top-nav__link--active" : "") ?>'
+        <!--<li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay3'>
+            <a class='top-nav__link <?php //echo($activePage == "my-work.php" ? "top-nav__link--active" : "") ?>'
                 href=''>My Work</a>
         </li>
         <li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay4'>
-            <a class='top-nav__link <?php echo($activePage == "contact.php" ? "top-nav__link--active" : "") ?>'
-                href=''>Contact</a>
+            <a class='top-nav__link <?php //echo($activePage == "contact.php" ? "top-nav__link--active" : "") ?>'
+                href=''>Contact</a>-->
         </li>
     </ul>
 </nav>

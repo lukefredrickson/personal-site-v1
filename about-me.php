@@ -24,15 +24,16 @@
         <section class="bio">
             <section class="bio__content">
                 <h1 class="bio__header">A little about myself...</h1>
-                <p class="bio__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis porro aliquam,
-                    similique reprehenderit saepe facilis necessitatibus placeat quod perspiciatis dicta illum
-                    consequatur ratione, delectus expedita sit velit. Molestias quos perferendis distinctio eaque
-                    voluptas. Iure animi nam dolores aut quia deserunt id, nulla adipisci maxime debitis delectus
-                    incidunt sed repellendus inventore commodi magnam sunt architecto numquam nostrum, reprehenderit
-                    libero cumque illum doloremque. Ea repudiandae inventore veniam consequuntur dolorum accusantium
-                    voluptate pariatur, repellendus id consequatur harum sint soluta illum eaque incidunt, saepe
-                    maiores commodi porro explicabo, quidem voluptates veritatis ullam iusto! Quidem deserunt obcaecati
-                    ducimus ratione tempore, similique autem repudiandae saepe exercitationem!</p>
+                <p class="bio__text">Hi, my name is <span class='bold'>Luke Fredrickson</span>. I’m a first-year
+                    computer science student and member of the Honors College at the <span class="bold">University of
+                        Vermont</span>. I'm originally from <span class="bold">Seattle, Washington</span>, a place my
+                    family has called home for three generations.</p>
+                <p class="bio__text">I’ve been fascinated by computers since I was young, and that fascination has
+                    blossomed into a deep passion for computer science. From web, to mobile, to desktop, I enjoy all
+                    forms of development, and I have an eye for design, too. When I’m AFK, you’ll likely find me hiking,
+                    biking, skiing, or doing volunteer trail maintenance wherever the mountains can be found.</p>
+                <p class="bio__text">I love meeting new people, and I’m always looking to learn. If you like what you
+                    see, <a href="mailto:lfredric@uvm.edu" class='bold'>let’s get in touch.</a></p>
             </section>
             <div class="bio__separator">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
