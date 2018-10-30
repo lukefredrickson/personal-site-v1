@@ -30,11 +30,11 @@ $activePage = $components[2];
         </li>
         <!--<li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay3'>
             <a class='top-nav__link <?php //echo($activePage == "my-work.php" ? "top-nav__link--active" : "") ?>'
-                href=''>My Work</a>
+                href=''>My Work</a>-->
         </li>
-        <li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay4'>
+        <li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay3'>
             <a class='top-nav__link <?php //echo($activePage == "contact.php" ? "top-nav__link--active" : "") ?>'
-                href=''>Contact</a>-->
+                href='mailto:lfredric@uvm.edu'>Contact</a>
         </li>
     </ul>
 </nav>

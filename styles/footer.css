@@ -9,3 +9,13 @@ footer {
     margin: 1em 0;
     color: #e8624b;
 }
+
+.copyright--animated {
+    transform: translateY(-1em);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: lowerAndReveal;
+    animation-duration: .6s;
+    animation-delay: .9s;
+    animation-timing-function: ease-in-out;
+}

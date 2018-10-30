@@ -97,14 +97,14 @@ footer {
 
 @media (min-width: 375px) {
     .hero__text {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     
 }
 
 @media (min-width: 410px) {
     .hero__text {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     
 }
@@ -127,7 +127,7 @@ footer {
 @media (min-width: 1200px) {
     .hero__text {
         font-size: 2.2rem;
-        padding: 0 15% 0 10%
+        padding: 0 15% 0 10%;
     }
     footer {
         padding: 4em 6%;
@@ -137,20 +137,20 @@ footer {
 @media (min-width: 1400px) {
     .hero__text {
         font-size: 2.3rem;
-        padding: 0 20% 0 10%
+        padding: 0 20% 0 10%;
     }
 }
 
 @media (min-width: 1600px) {
     .hero__text {
-        font-size: 2.4rem;
-        padding: 0 25% 0 10%
+        font-size: 2.5rem;
+        padding: 0 25% 0 10%;
     }
 }
 
 @media (min-width: 1800px) {
     .hero__text {
-        font-size: 2.5em;
-        padding: 0 30% 0 10%
+        font-size: 2.7em;
+        padding: 2em 30% 0 10%;
     }
 }

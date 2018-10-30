@@ -68,22 +68,44 @@ body {
     }
 }
 
-.bio__content h1 {
+.bio__header {
     font-size: 2em;
-    margin: 0;
+    margin: 0 0 0.5em 0;
 }
 
-.bio__content p {
+.bio__text {
     margin-top: 0.5em;
     font-size: 1.4em;
     line-height: 1.4em;
 }
 
-.bio__content .bold {
+.bio__header--animated, .bio__text--animated {
+    transform: translateY(-1em);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: lowerAndReveal;
+    animation-duration: .6s;
+    animation-delay: .75s;
+    animation-timing-function: ease-in-out;
+}
+
+.bio__text--delay1 {
+    animation-delay: 0.75s;
+}
+
+.bio__text--delay2 {
+    animation-delay: 0.9s;
+}
+
+.bio__text--delay3 {
+    animation-delay: 1.05s;
+}
+
+.bio__text .bold {
     font-weight: bold;
 }
 
-.bio__content a {
+.bio__text a {
     text-decoration: none;
     color: #fff;
     padding: 0 0.2em;
@@ -94,7 +116,7 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.bio__content a:hover {
+.bio__text a:hover {
     background-size: 0.1em 100%;
     /*avg of gradient*/
     color: #e8624b;
@@ -189,6 +211,28 @@ body {
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     text-align: left;
+}
+
+.skills__header--animated, .skill-card--animated {
+    transform: translateY(-1em);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: lowerAndReveal;
+    animation-duration: .6s;
+    animation-delay: .75s;
+    animation-timing-function: ease-in-out;
+}
+
+.skill-card--delay1 {
+    animation-delay: 0.9s;
+}
+
+.skill-card--delay2 {
+    animation-delay: 1.05s;
+}
+
+.skill-card--delay3 {
+    animation-delay: 1.2s;
 }
 
 .skill-card__header {

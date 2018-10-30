@@ -23,16 +23,16 @@
     <section id='main' class='main'>
         <section class="bio">
             <section class="bio__content">
-                <h1 class="bio__header">A little about myself...</h1>
-                <p class="bio__text">Hi, my name is <span class='bold'>Luke Fredrickson</span>. I’m a first-year
+                <h1 class="bio__header bio__header--animated">A little about myself...</h1>
+                <p class="bio__text bio__text--animated bio__text--delay1">Hi, my name is <span class='bold'>Luke Fredrickson</span>. I’m a first-year
                     computer science student and member of the Honors College at the <span class="bold">University of
-                        Vermont</span>. I'm originally from <span class="bold">Seattle, Washington</span>, a place my
-                    family has called home for three generations.</p>
-                <p class="bio__text">I’ve been fascinated by computers since I was young, and that fascination has
-                    blossomed into a deep passion for computer science. From web, to mobile, to desktop, I enjoy all
-                    forms of development, and I have an eye for design, too. When I’m AFK, you’ll likely find me hiking,
-                    biking, skiing, or doing volunteer trail maintenance wherever the mountains can be found.</p>
-                <p class="bio__text">I love meeting new people, and I’m always looking to learn. If you like what you
+                    Vermont</span>. I was born and raised in <span class="bold">Seattle, Washington</span>, and I'm
+                    proud to call the Pacific Northwest home.</p>
+                <p class="bio__text bio__text--animated bio__text--delay2">I’ve been fascinated by technology since I was young, and that fascination has
+                    blossomed into a deep passion for computer science. I enjoy all forms of development, from web, to
+                    mobile, to desktop, and have an eye for design as well. When I’m AFK, you’ll likely find me hiking,
+                    biking, skiing, or doing volunteer trail maintenance wherever there are mountains.</p>
+                <p class="bio__text bio__text--animated bio__text--delay3">I love meeting new people, and I’m always looking to learn. If you like what you
                     see, <a href="mailto:lfredric@uvm.edu" class='bold'>let’s get in touch.</a></p>
             </section>
             <div class="bio__separator">
@@ -42,11 +42,11 @@
             </div>
         </section>
         <section class="skills">
-            <header class="skills__header">
+            <header class="skills__header skills__header--animated">
                 <h1>My Skills</h1>
             </header>
             <section class="skills__cards">
-                <section class="skills__languages skill-card">
+                <section class="skills__languages skill-card skill-card--animated skill-card--delay1">
                     <header class="skill-card__header">
                         <h2 class="skill-card__title">Programming Languages</h2>
                     </header>
@@ -70,7 +70,7 @@
                         </section>
                     </section>
                 </section>
-                <section class="skills__tools skill-card">
+                <section class="skills__tools skill-card skill-card--animated skill-card--delay2">
                     <section class="skill-card__header">
                         <h2 class="skill-card__title">Development Tools</h2>
                     </section>
@@ -91,7 +91,7 @@
                         </section>
                     </section>
                 </section>
-                <section class="skills__other skill-card">
+                <section class="skills__other skill-card skill-card--animated skill-card--delay3">
                     <section class="skill-card__header">
                         <h2 class="skill-card__title">Other Software</h2>
                     </section>
