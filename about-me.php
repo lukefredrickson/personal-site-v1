@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/top-nav-primary.css">
     <link rel="stylesheet" href="styles/overlay-nav.css">
     <link rel="stylesheet" href="styles/social-links-primary.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/about-me.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,700" rel="stylesheet">
     <title>About Me</title>
@@ -116,10 +117,7 @@
             </section>
         </section>
     </section>
-    <footer>
-        <?php include "social-links.html" ?>
-        <p class="copyright">&copy; <?php echo date("Y");?> Luke Fredrickson</p>
-    </footer>
+    <?php include "footer.php"; ?>
 
     <script src="scripts/toggle-overlay-nav.js"></script>
 

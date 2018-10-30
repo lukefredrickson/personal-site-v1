@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.copyright {
+    margin: 1em 0;
+    color: #e8624b;
+}

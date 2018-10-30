@@ -53,10 +53,11 @@
 }
 
 /*   menu button (for mobile nav)   */
-.top-nav__menu-btn {
+.top-nav__menu-btn, .top-nav__link {
     box-sizing: border-box;
-    padding: 0.4em 1.4em;
-    font-size: 2em;
+    padding: 0.4em 1em;
+    text-decoration: none;
+    font-size: 1.4em;
     color: #fff;
     border: 2px solid #fff;
     /*very large to force full rounding*/
@@ -65,7 +66,7 @@
     cursor: pointer;
 }
 
-.top-nav__menu-btn:hover {
+.top-nav__menu-btn:hover, .top-nav__link:hover {
     background-color: #fff;
     /*avg of gradient*/
     color: #e8624b;
@@ -120,68 +121,44 @@
     animation-delay: .75s;
 }
 
-.top-nav__link {
-    box-sizing: border-box;
-    padding: 0.4em 1.4em;
-    text-decoration: none;
-    font-size: 1.5em;
-    color: #fff;
-    border: 2px solid #fff;
-    /*very large to force full rounding*/
-    border-radius: 10em;
-    transition: all 0.2s ease;
-}
-
-.top-nav__link:hover {
-    background-color: #fff;
-    /*avg of gradient*/
-    color: #e8624b;
-}
-
 
 @media (min-width: 360px) {
     .top-nav {
-        font-size: 75%;
     }
 }
 
 @media (min-width: 375px) {
     .top-nav {
-        font-size: 75%;
     }
 }
 
 @media (min-width: 410px) {
     .top-nav {
-        font-size: 75%;
+        font-size: 80%;
     }
 }
 
 @media (min-width: 600px) {
-    .top-nav__menu-btn {
-        font-size: 2em;
+    .top-nav {
+        font-size: 85%;
     }
 }
 
 @media (min-width: 700px) {
     .top-nav {
-        font-size: 80%;
-    }
-    .top-nav__menu-btn {
-        font-size: 1.9em;
+        font-size: 90%;
     }
 }
 
 @media (min-width: 900px) {
     .top-nav {
-        font-size: 90%;
-    }
-    .top-nav__menu-btn {
-        font-size: 1.7em;
+        font-size: 100%;
     }
 }
 
 @media (min-width: 1100px) {
+    .top-nav {
+    }
     .top-nav__menu-btn {
         display: none;
     }

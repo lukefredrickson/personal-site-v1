@@ -1,6 +1,6 @@
 html,
 body {
-    font-size: 75%;
+    font-size: 100%;
 }
 
 /*   MAIN CONTAINER   */
@@ -35,7 +35,7 @@ body {
 .hero__text {
     flex: 1 1 0; /* forces social links to bottom */
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-align: left;
     color: #fff;
     margin: 3rem 0 0 0;
@@ -82,73 +82,75 @@ body {
 
 footer {
     width: 100%;
-    padding: 4em 6%;
+    padding: 2em 6%;
 }
 
 
 /*   MEDIA QUERIES FOR RESPONSIVE   */
 
 @media (min-width: 360px) {
-    html,
-    body {
-        font-size: 85%;
+    .hero__text {
+        font-size: 1.2rem;
     }
+    
 }
 
 @media (min-width: 375px) {
-    html,
-    body {
-        font-size: 90%;
+    .hero__text {
+        font-size: 1.4rem;
     }
+    
 }
 
 @media (min-width: 410px) {
-    html,
-    body {
-        font-size: 95%;
+    .hero__text {
+        font-size: 1.7rem;
     }
+    
 }
 
 @media (min-width: 500px) {
-    html,
-    body {
-        font-size: 100%;
-    }
     .hero__text {
-        font-size: 1.75em;
+        font-size: 1.8rem;
     }
 }
 
 @media (min-width: 600px) {
     .hero__text {
-        font-size: 2em;
+        font-size: 2rem;
+    }
+    footer {
+        padding: 3em 6%;
     }
 }
 
 @media (min-width: 1200px) {
     .hero__text {
-        font-size: 2.2em;
+        font-size: 2.2rem;
         padding: 0 15% 0 10%
+    }
+    footer {
+        padding: 4em 6%;
     }
 }
 
 @media (min-width: 1400px) {
     .hero__text {
-        font-size: 2.5em;
+        font-size: 2.3rem;
         padding: 0 20% 0 10%
     }
 }
 
 @media (min-width: 1600px) {
     .hero__text {
-        font-size: 2.8em;
+        font-size: 2.4rem;
         padding: 0 25% 0 10%
     }
 }
 
 @media (min-width: 1800px) {
     .hero__text {
-        font-size: 3em;
+        font-size: 2.5em;
         padding: 0 30% 0 10%
     }
 }
