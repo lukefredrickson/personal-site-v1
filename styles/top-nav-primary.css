@@ -1,0 +1,130 @@
+/*   TOP NAVIGATION   */
+
+.top-nav {
+    grid-area: nav;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 1em 4em;
+    background-color: #fff;
+}
+
+/*   logo   */
+
+.logo {
+    width: auto;
+    height: 4em;
+    overflow: visible;
+    transition: all .2s ease;
+    transform: translateY(0);
+}
+
+.logo:hover {
+    transform: translateY(0.2em);
+    opacity: .85;
+}
+
+.logo__circle,
+.logo__letters {
+    animation-fill-mode: forwards;
+    will-change: transform;
+    transition: all .2s ease;
+}
+
+.logo__circle {
+    fill: url(#linear-gradient);
+    transform-origin: center;
+    transform: scale(0);
+    animation-name: bubble;
+    animation-duration: .7s;
+    animation-delay: .2s;
+    animation-timing-function: cubic-bezier(.45, .05, .55, .95);
+}
+
+.logo__letters {
+    fill: #fff;
+    opacity: 0;
+    transform: translateY(6em);
+    animation-name: rise;
+    animation-duration: .5s;
+    animation-delay: .4s;
+}
+
+/*   menu button (for mobile nav), and nav links   */
+.top-nav__menu-btn, .top-nav__link {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #000;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.top-nav__menu-btn:hover, .top-nav__link:hover {
+    color: #e8624b;
+}
+
+.top-nav__link--active {
+    color: #e8624b;
+}
+
+.top-nav__menu-btn--animated {
+    transform: translateY(-1.5em);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: lowerAndReveal;
+    animation-duration: .6s;
+    animation-delay: .3s;
+    animation-timing-function: ease-in-out;
+}
+
+/*   horizontal navigation for desktop & tablet   */
+.top-nav__list {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: none;
+}
+
+.top-nav__list-item {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.top-nav__list-item--animated {
+    transform: translateY(-1.5em);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: lowerAndReveal;
+    animation-duration: .6s;
+    animation-delay: .3s;
+    animation-timing-function: ease-in-out;
+}
+
+.top-nav__list-item--delay1 {
+    animation-delay: .3s;
+}
+
+.top-nav__list-item--delay2 {
+    animation-delay: .45s;
+}
+
+.top-nav__list-item--delay3 {
+    animation-delay: .6s;
+}
+
+.top-nav__list-item--delay4 {
+    animation-delay: .75s;
+}
+
+@media (min-width: 850px) {
+    .top-nav__menu-btn {
+        display: none;
+    }
+    .top-nav__list {
+        display: block;
+    }
+}

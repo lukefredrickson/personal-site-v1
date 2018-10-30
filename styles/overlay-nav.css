@@ -76,7 +76,6 @@
 }
 
 .overlay-nav__link {
-    box-sizing: content-box;
     padding: 0.2em 0.5em;
     text-decoration: none;
     font-size: 4em;
@@ -93,4 +92,40 @@
     background-size: 0.1em 100%;
     /*avg of gradient*/
     color: #e8624b;
+}
+
+@media (min-width: 360px) {
+    .overlay-nav {
+        font-size: 75%;
+    }
+}
+
+@media (min-width: 375px) {
+    .overlay-nav {
+        font-size: 75%;
+    }
+}
+
+@media (min-width: 410px) {
+    .overlay-nav {
+        font-size: 75%;
+    }
+}
+
+@media (min-width: 700px) {
+    .overlay-nav {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 900px) {
+    .overlay-nav {
+        font-size: 90%;
+    }
+}
+
+@media (min-width: 1100px) {
+    .overlay-nav {
+        font-size: 100%;
+    }
 }
