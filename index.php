@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/social-links-landing.css">
     <link rel="stylesheet" href="styles/landing-page.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,700" rel="stylesheet">
-    <title>Luke Fredrickson</title>
+    <title>Luke Fredrickson &#124; Aspiring Developer</title>
 </head>
 
 <body>

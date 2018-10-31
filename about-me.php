@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/about-me.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,700" rel="stylesheet">
-    <title>About Me</title>
+    <title>About Me &#124; Luke Fredrickson</title>
 </head>
 
 <body>
