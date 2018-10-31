@@ -36,6 +36,14 @@ body {
     color: #fff;
 }
 
+.bio__content--animated {
+    animation-fill-mode: forwards;
+    animation-name: expandDown;
+    animation-duration: 1.2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+
 @media (min-width: 800px) {
     .bio__content {
         font-size: 90%;
@@ -134,7 +142,15 @@ body {
 .bio__separator svg {
     margin-top: -1px;
     width: 25%;
-    height: 100%;
+    height: 0%;
+}
+
+.bio__separator--animated svg {
+    animation-fill-mode: forwards;
+    animation-name: expandDown;
+    animation-duration: 0.8s;
+    animation-delay: 0.4s;
+    animation-timing-function: cubic-bezier(.81,0,.11,1.61);
 }
 
 .bio__separator polygon{

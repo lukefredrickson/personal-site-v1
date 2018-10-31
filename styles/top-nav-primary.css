@@ -8,8 +8,9 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    padding: 1em 4em;
+    padding: 1em 2em;
     background-color: #fff;
+    transition: padding .4s ease;
 }
 
 /*   logo   */
@@ -121,6 +122,9 @@
 }
 
 @media (min-width: 850px) {
+    .top-nav {
+        padding: 1em 4em;
+    }
     .top-nav__menu-btn {
         display: none;
     }

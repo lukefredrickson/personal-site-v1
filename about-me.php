@@ -22,7 +22,7 @@
     <?php include "top-nav.php"; ?>
     <section id='main' class='main'>
         <section class="bio">
-            <section class="bio__content">
+            <section class="bio__content bio__content--animated">
                 <h1 class="bio__header bio__header--animated">A little about myself...</h1>
                 <p class="bio__text bio__text--animated bio__text--delay1">Hi, my name is <span class='bold'>Luke Fredrickson</span>. I’m a first-year
                     computer science student and member of the Honors College at the <span class="bold">University of
@@ -35,7 +35,7 @@
                 <p class="bio__text bio__text--animated bio__text--delay3">I love meeting new people, and I’m always looking to learn. If you like what you
                     see, <a href="mailto:lfredric@uvm.edu" class='bold'>let’s get in touch.</a></p>
             </section>
-            <div class="bio__separator">
+            <div class="bio__separator bio__separator--animated">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                     <polygon points="0,0 50,100 100,0" />
                 </svg>
