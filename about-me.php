@@ -79,7 +79,7 @@
                             <h4 class="skill-card__subtitle">Libraries &#38; Frameworks</h4>
                             <ul class="skill-card__list">
                                 <li class="skill-card__list-item">JavaFX</li>
-                                <li class="skill-card__list-item">RegEx</li>
+                                <li class="skill-card__list-item">SCSS/SASS</li>
                             </ul>
                         </section>
                         <section class="skill-card__section">
