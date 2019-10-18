@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/sanatize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/top-nav-landing.css">
+    <link rel="stylesheet" href="styles/overlay-nav.css">
+    <link rel="stylesheet" href="styles/social-links-landing.css">
+    <link rel="stylesheet" href="styles/landing-page.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,700" rel="stylesheet">
+    <title>Luke Fredrickson &#124; Aspiring Developer</title>
+</head>
+
+<body>
+<nav id='overlay-nav' class="overlay-nav overlay-nav--hidden">
+    <svg onclick='closeOverlayNav()' id="overlay-nav__close-btn" class="overlay-nav__close-btn" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 500 500">
+        <circle class="circle" cx="250" cy="250" r="250" />
+        <circle class="circle-outline" cx="250" cy="250" r="250" />
+        <path  class="icon" d="M223.39,256l71.07-71.07a22.34,22.34,0,0,0,0-31.59l-15.8-15.8a22.34,22.34,0,0,0-31.59,0L176,208.61l-71.07-71.07a22.34,22.34,0,0,0-31.59,0l-15.8,15.8a22.34,22.34,0,0,0,0,31.59L128.61,256,57.54,327.07a22.34,22.34,0,0,0,0,31.59l15.8,15.8a22.34,22.34,0,0,0,31.59,0L176,303.39l71.07,71.07a22.34,22.34,0,0,0,31.59,0l15.8-15.8a22.34,22.34,0,0,0,0-31.59Z" transform="translate(79 -1)"/>
+    </svg>
+    <ul class="overlay-nav__list">
+        <li class="overlay-nav__list-item"><a class="overlay-nav__link" href="index.php">HOME</a></li>
+        <li class="overlay-nav__list-item"><a class="overlay-nav__link" href="files/Luke-Fredrickson-Resume.pdf" target="_blank">RESUM&#201</a></li>
+        <li class="overlay-nav__list-item"><a class="overlay-nav__link" href="about-me.php">ABOUT ME</a></li>
+        <!--<li class="overlay-nav__list-item"><a class="overlay-nav__link" href="">MY WORK</a></li>-->
+        <li class="overlay-nav__list-item"><a class="overlay-nav__link" href="mailto:lfredric@uvm.edu">CONTACT</a></li>
+    </ul>
+</nav>
+    <section id='main' class='main main--gradient'>
+    <nav class='top-nav'>
+    <a href='index.php'>
+        <svg class='logo' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="auto"
+            height="6rem" viewBox="0 0 1000 1000">
+            <defs>
+                <linearGradient id="linear-gradient" x1="1000" y1="788.675" x2="0" y2="211.325" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#d4145a" />
+                    <stop offset="1" stop-color="#fbb03b" />
+                </linearGradient>
+            </defs>
+            <circle class="logo__circle" cx="500" cy="500" r="500" />
+            <path id="lf" class="logo__letters" d="M450.758,212.1h-86.8l-86.1,406.7q-4.2,21-4.2,37.1,0,31.5,15.827,43.05t46.069,11.55a237.173,237.173,0,0,0,47.119-4.846q23.919-4.872,36.575-12.479l2.11-61.775a91.03,91.03,0,0,1-37.1,7.7q-10.5,0-15.05-9.811t-0.35-30.155ZM679.65,423.5l14-71.4h-70l4.2-23.308q4.2-28.251,14.35-41.672t32.55-13.42a249.768,249.768,0,0,1,32.9,2.242,130.081,130.081,0,0,1,32.9,8.958l20.3-63.7a141.919,141.919,0,0,0-23.723-8.4q-13.257-3.5-27.213-5.95a284.407,284.407,0,0,0-28.262-3.5q-14.307-1.05-25.463-1.05-27.217,0-45.708,6.3a79.984,79.984,0,0,0-31.39,19.25q-12.912,12.96-20.585,32.2-7.677,19.26-12.556,45.15l-9.1,46.9h-44.8l-15.4,71.4h49l-44.1,271.753q-6.3,39.818-18.55,57.641-12.255,17.8-34.65,17.806-18.195,0-30.1-1.138a107.327,107.327,0,0,1-23.8-5.162l-23.8,63.7q17.457,11.894,41.508,15.75a312.033,312.033,0,0,0,49.186,3.85q30.7,0,51.625-9.461a94.808,94.808,0,0,0,34.54-25.944,123.87,123.87,0,0,0,21.274-38.566A284.73,284.73,0,0,0,560.65,725.7l51.8-302.2h67.2Z" />
+        </svg>
+    </a>
+    <p onclick='openOverlayNav()' d='top-nav__menu-btn' class="top-nav__menu-btn top-nav__menu-btn--animated">Menu</p>
+    <ul class='top-nav__list'>
+        <li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay1'>
+            <a class='top-nav__link' href='files/Luke-Fredrickson-Resume.pdf' target='_blank'>Resum&#233</a>
+        </li>
+        <li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay2'>
+            <a class='top-nav__link'
+                href='about-me.php'>About Me</a>
+        </li>
+        <li class='top-nav__list-item top-nav__list-item--animated top-nav__list-item--delay3'>
+            <a class='top-nav__link'
+                href='mailto:lfredric@uvm.edu'>Contact</a>
+        </li>
+    </ul>
+</nav>
+        <section class='hero__text'>
+            <h1 class='hero__title hero__title--animated'><span class='hero__text--regular'>Hi, I'm </span>Luke
+                Fredrickson</h1>
+            <h2 class='hero__subtitle hero__subtitle--animated'>An aspiring software developer studying CS at UVM.</h2>
+        </section>
+        <footer>
+    <nav class="social-links">
+        <ul class="social-links__list">
+            <li
+                class="social-links__list-item social-links__list-item--animated social-links__list-item--delay1"
+            >
+                <a
+                    href="https://github.com/lukefredrickson"
+                    target="_blank"
+                    class="social-links__link"
+                >
+                    <svg
+                        class="social-links__image"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 500 500"
+                    >
+                        <circle class="circle" cx="250" cy="250" r="250" />
+                        <circle
+                            class="circle-outline"
+                            cx="250"
+                            cy="250"
+                            r="250"
+                        />
+                        <path
+                            class="icon"
+                            d="M198.34,339.08c0,1.21-1.39,2.17-3.14,2.17-2,.18-3.39-.78-3.39-2.17,0-1.21,1.39-2.18,3.15-2.18C196.77,336.72,198.34,337.68,198.34,339.08Zm-18.81-2.73c-.42,1.21.79,2.6,2.6,3,1.58.6,3.39,0,3.75-1.21s-.78-2.6-2.6-3.15c-1.57-.42-3.32.18-3.75,1.39Zm26.74-1c-1.76.42-3,1.57-2.79,3,.19,1.21,1.76,2,3.57,1.57s3-1.57,2.78-2.78S208,335.14,206.27,335.33Zm39.79-231.78C162.17,103.55,98,167.24,98,251.13c0,67.08,42.22,124.48,102.52,144.68,7.74,1.39,10.46-3.39,10.46-7.32,0-3.75-.18-24.43-.18-37.14,0,0-42.34,9.08-51.23-18,0,0-6.89-17.6-16.81-22.14,0,0-13.85-9.49,1-9.31a31.91,31.91,0,0,1,23.34,15.6c13.25,23.35,35.45,16.64,44.1,12.64,1.39-9.67,5.32-16.39,9.67-20.38-33.81-3.75-67.92-8.65-67.92-66.83,0-16.64,4.6-25,14.27-35.63-1.57-3.93-6.71-20.14,1.58-41.07,12.64-3.93,41.73,16.33,41.73,16.33a142.93,142.93,0,0,1,76,0s29.09-20.32,41.73-16.33c8.29,21,3.15,37.14,1.57,41.07,9.68,10.71,15.61,19.05,15.61,35.63,0,58.36-35.63,63-69.44,66.83,5.57,4.78,10.29,13.85,10.29,28.07,0,20.38-.19,45.6-.19,50.56,0,3.93,2.79,8.71,10.47,7.32C357,375.61,398,318.21,398,251.13,398,167.24,330,103.55,246.06,103.55ZM156.79,312.16c-.79.61-.6,2,.42,3.15,1,1,2.36,1.39,3.15.6.79-.6.6-2-.42-3.14C159,311.8,157.58,311.37,156.79,312.16Zm-6.53-4.9c-.43.79.18,1.76,1.39,2.36a1.81,1.81,0,0,0,2.6-.42c.42-.79-.18-1.76-1.39-2.36C151.65,306.47,150.68,306.66,150.26,307.26Zm19.59,21.53c-1,.79-.6,2.6.79,3.75,1.39,1.39,3.15,1.58,3.93.61.79-.79.43-2.6-.78-3.75C172.46,328,170.64,327.83,169.85,328.79ZM163,319.9c-1,.61-1,2.18,0,3.57s2.6,2,3.39,1.39c1-.78,1-2.36,0-3.75s-2.42-2-3.39-1.21Z"
+                            transform="translate(2 0.2)"
+                        />
+                    </svg>
+                </a>
+            </li>
+            <li
+                class="social-links__list-item social-links__list-item--animated social-links__list-item--delay2"
+            >
+                <a
+                    href="https://www.linkedin.com/in/luke-fredrickson/"
+                    target="_blank"
+                    class="social-links__link"
+                >
+                    <svg
+                        class="social-links__image"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 500 500"
+                    >
+                        <circle class="circle" cx="250" cy="250" r="250" />
+                        <circle
+                            class="circle-outline"
+                            cx="250"
+                            cy="250"
+                            r="250"
+                        />
+                        <path
+                            class="icon"
+                            d="M155,381H103.18V214.09H155ZM129.07,191.32a30.16,30.16,0,1,1,30-30.3A30.27,30.27,0,0,1,129.07,191.32ZM349,381H297.28V299.75c0-19.36-.39-44.2-26.95-44.2-26.95,0-31.08,21-31.08,42.8V381H187.48V214.09h49.71v22.77h.72c6.92-13.11,23.83-27,49-27,52.45,0,62.1,34.54,62.1,79.4V381Z"
+                            transform="translate(25.95 -6)"
+                        />
+                    </svg>
+                </a>
+            </li>
+            <!--<li class="social-links__list-item social-links__list-item--animated social-links__list-item--delay3">
+            <a href="https://www.freecodecamp.org/luke-fredrickson" target="_blank" class="social-links__link">
+                <svg class="social-links__image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+                    <circle class="circle" cx="250" cy="250" r="250" />
+                    <circle class="circle-outline" cx="250" cy="250" r="250" />
+                    <path class="icon" d="M170.8,197.65c-22,36.7-19.51,87.34.53,121.63,11.9,20.47,26.63,28.08,26.63,35.63a7.15,7.15,0,0,1-6.86,7c-10.45,0-53.15-40.46-53.15-106,0-59.74,41.79-99.66,52-99.66,3.21,0,8,2.57,8,6C198,169,182.8,177.5,170.8,197.65ZM275.71,312.21c2.41,1,6.59,2.78,6.59-.65,0-1.44-1.18-1.55-2.31-1.93a20.49,20.49,0,0,1-10.23-8.14c-4.39-6.48-5.41-13-5.41-20.68,0-17.2,23.68-20.31,23.68-37.51,0-6.59-4.13-8.52-4.13-10.34,0-1.18.38-1.18,1.56-1.18,4.28,0,10.23,7.13,12.05,10.61a10.42,10.42,0,0,1,1.29,6c0,3.75-.37,7.61-.37,11.41,0,14.47,17.09,10.61,17.09,3.64,0-3.21-1.93-6.21-1.93-9.32,0-.37,0-.64.37-.64,1.83,0,5,4.12,6,5.41,3.11,4.77,4.56,11.14,4.56,16.82,0,17.36-15.81,26.26-15.81,30,0,.53,1.55,4.12,6.48,1,15.92-8.09,28.45-25.51,28.45-48.12,0-18-4.66-30.91-17.2-44.26-2.09-2.19-8.78-9.05-12.05-9.05-4.39,0,3.86,10,3.86,16.72a6.25,6.25,0,0,1-6.59,6.59c-6.22,0-7.77-13.61-8.52-17.85-3.11-18.11-6.86-31.18-24.86-39.7-5.58-2.68-19.56-6.32-19.56-1.18,0,1.29,1.44,2.2,2.46,2.73,4.93,3,10.5,11.47,10.5,20.47,0,24.7-30.91,47.26-30.91,73-.11,21.59,15.05,38.9,35,46.19Zm110-156.09c-3.22,0-7.72,3.49-7.72,6.76,0,4.66,6.49,10.5,9.43,13.61,43.73,45.59,42.12,114.82,9.43,155.92-3.75,4.76-18.91,18.91-18.91,23.3,0,2.74,4.39,6.11,7.07,6.11,13.61,0,52.94-43.29,52.94-99.5C438,198.4,397.17,156.12,385.71,156.12ZM363,329.24H223.14c-5,0-8.3,4-8.3,8.79a8.35,8.35,0,0,0,8.3,8.31H363c5,0,6.38-4,6.38-8.79C369.42,333,367.54,329.24,363,329.24Z"
+                        transform="translate(-38 -6)" />
+                </svg>
+            </a>
+        </li>-->
+            <li
+                class="social-links__list-item social-links__list-item--animated social-links__list-item--delay3"
+            >
+                <a href="mailto:lfredric@uvm.edu" class="social-links__link">
+                    <svg
+                        class="social-links__image"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 500 500"
+                    >
+                        <circle class="circle" cx="250" cy="250" r="250" />
+                        <circle
+                            class="circle-outline"
+                            cx="250"
+                            cy="250"
+                            r="250"
+                        />
+                        <path
+                            class="icon"
+                            d="M256,116a140,140,0,1,0,76.44,257.29,13.55,13.55,0,0,0,3.13-20l-5.74-7a13.51,13.51,0,0,0-17.71-2.9A103.87,103.87,0,1,1,256,152.13c56.53,0,103.87,32.53,103.87,90.32,0,21.9-11.91,45-32.84,47.25-9.79-.26-9.54-7.26-7.6-16.95l13.22-68.37a13.54,13.54,0,0,0-13.3-16.12H294a7.63,7.63,0,0,0-7.58,6.77v.05c-8.29-10.11-22.83-12.29-33.85-12.29-42.1,0-77.81,35.13-77.81,85.5,0,36.86,20.77,59.76,54.19,59.76,15.24,0,32.39-8.82,42.34-21.63,5.37,19.25,22.92,19.25,39.91,19.25,61.48,0,84.85-40.43,84.85-83.22C396,165.48,333.92,116,256,116ZM243.76,287.86c-12.56,0-20.36-8.82-20.36-23,0-25.4,17.37-41.06,33.1-41.06,12.58,0,20.09,8.61,20.09,23,0,25.44-19.12,41.06-32.83,41.06Z"
+                            transform="translate(-1 -1)"
+                        />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <p class="copyright copyright--animated">
+        &copy;
+        <script>
+            var d = new Date();
+            document.write(d.getFullYear());
+        </script>
+        Luke Fredrickson
+    </p>
+</footer>
+
+    </section>
+
+    <script src="scripts/toggle-overlay-nav.js"></script>
+
+</body>
+
+</html>
