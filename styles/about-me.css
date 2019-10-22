@@ -258,6 +258,7 @@ body {
     color: #fff;
     padding: 0.8em;
     text-align: center;
+    font-size: 1.2em;
 }
 
 .skill-card__title {
@@ -307,7 +308,7 @@ body {
 
 .skill-card__subtitle {
     margin-top: 1em;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .skill-card__list {
@@ -315,5 +316,5 @@ body {
 }
 
 .skill-card__list-item {
-    font-size: 1em;
+    font-size: 1.2em;
 }
