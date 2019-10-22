@@ -1,8 +1,6 @@
 {
-    "liveServer.settings.useWebExt": true,
-    "liveServer.settings.proxy": {
-        "enable": true,
-        "baseUri": "/",
-        "proxyUri": "http://localhost/portfolio/"
-    },
+    "liveServer.settings.port": 4500,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.ignoreFiles": [".vscode/**", "**/*.scss", "**/*.sass"]
 }
