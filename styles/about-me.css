@@ -173,14 +173,10 @@ body {
 .skills__cards {
     grid-area: skills;
     margin: 0.5em;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    grid-template-areas:
-        "languages"
-        "tools"
-        "other";
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 800px) {
@@ -192,20 +188,27 @@ body {
 @media (min-width: 1150px) {
     .skills__cards {
         margin: 0.5em;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: "languages tools other";
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
     }
 }
 
 @media (min-width: 1800px) {
     .skills__cards {
         margin: 0.5em 6em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
     }
 }
 
 @media (min-width: 1900px) {
     .skills__cards {
         margin: 0.5em 8em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
     }
 }
 
@@ -230,6 +233,7 @@ body {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     text-align: left;
     max-width: 22em;
+    min-width: 22em;
 }
 
 .skills__header--animated,
