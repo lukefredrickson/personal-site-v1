@@ -174,7 +174,7 @@ body {
     grid-area: skills;
     margin: 0.5em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -188,7 +188,7 @@ body {
 @media (min-width: 1150px) {
     .skills__cards {
         margin: 0.5em;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: stretch;
     }
@@ -197,18 +197,12 @@ body {
 @media (min-width: 1800px) {
     .skills__cards {
         margin: 0.5em 6em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
     }
 }
 
 @media (min-width: 1900px) {
     .skills__cards {
         margin: 0.5em 8em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
     }
 }
 
