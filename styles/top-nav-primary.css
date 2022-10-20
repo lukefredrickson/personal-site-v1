@@ -123,7 +123,7 @@
 
 @media (min-width: 850px) {
     .top-nav {
-        padding: 1em 4em;
+        padding: 2.5rem 4em;
     }
     .top-nav__menu-btn {
         display: none;
